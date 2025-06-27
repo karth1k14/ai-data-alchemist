@@ -26,7 +26,7 @@ export default function Rules() {
         }
       });
       alert("Rules saved as rules.json!");
-    } catch (err) {
+    } catch  {
       alert("Failed to export rules.");
     }
   };
