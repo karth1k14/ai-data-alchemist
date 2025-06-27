@@ -31,7 +31,7 @@ export default function Home() {
       setRowData(jsonData);
 
       try {
-        const response = await axios.post("http://localhost:8000/api/upload", { data: jsonData }, axiosConfig);
+        const response = await axios.post("https://ai-data-alchemist-backend.onrender.com", { data: jsonData }, axiosConfig);
         setErrors(response.data.errors || []);
       } catch {
         alert("Failed to upload or validate data.");
