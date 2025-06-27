@@ -19,7 +19,7 @@ export default function Rules() {
 
   const exportRules = async () => {
     try {
-      await axios.post("http://localhost:8000/api/rules", { rules }, {
+      await axios.post("https://ai-data-alchemist-backend.onrender.com", { rules }, {
         auth: {
           username: "admin",
           password: "password123",
