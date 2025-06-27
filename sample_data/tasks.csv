@@ -1,0 +1,4 @@
+TaskID,TaskName,Category,Duration,RequiredSkills,PreferredPhases,MaxConcurrent
+T1,Setup,Init,2,SkillA,"[1,2,3]",1
+T2,Deploy,Ops,1,SkillB,"2-3",2
+T3,Test,QE,1,SkillA,"[3]",1
